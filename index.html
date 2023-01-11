@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- SECTION HEADER -->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#home">ANDRÉ</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="seleccionar()">HOME</a></li>
+                    <li><a href="#aboutme" onclick="seleccionar()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- SECTION HEADER -->
+
+    <!-- SECTION HOME -->
+    <section id="home" class="home">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="img/andre.png" alt="">
+            </div>
+            <h1>ANDRÉ FERNANDES</h1>
+            <h2>Full-Stack Developer</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=100056542068281" target="_blank"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/AndreFer03" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/_afr.f/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/andr%C3%A9-fernandes-4b181a1a9/" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/andre03fernandes" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION HOME -->
+
+    <!-- SECTION ABOUT ME -->
+    <section id="aboutme" class="aboutme">
+        <div class="container-section">
+            <h2>ABOUT ME</h2>
+            <p><span>Hi, I'm André Fernandes.</span> I have a level 5 qualification
+                skilled qualifications of the European Qualifications Framework (EQF)
+                in Technologies and Programming information systems (TPIS), taken at the CINEL training centre.
+                I have a year of academic experience developed during the TPIS course.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Personal Data</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            24-11-2003
+                        </li>
+                        <li>
+                            <strong>Phone Number</strong>
+                            927 690 241
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            andre2411fernandes@gmail.com
+                        </li>
+                        <li>
+                            <strong>GitHub</strong>
+                            andre03fernandes
+                        </li>
+                        <li>
+                            <strong>Country</strong>
+                            Portugal
+                        </li>
+                        <li>
+                            <strong>Position</strong>
+                            <span>FULL-STACK DEVELOPER</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>TECNOLOGY</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>SPORT</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>BOOKS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-draw-polygon"></i>
+                            <span>DRAW</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>PCTURES</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button><a style="color: white; text-decoration: none;" href="./img/CV.pdf" download>
+                    DOWNLOAD CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </a></button>
+        </div>
+    </section>
+    <!-- SECTION ABOUT ME -->
+
+    <!-- SECTION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Linq</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS & Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>ASP .NET MVC</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C#</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>XAMARIN</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Team Work</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION SKILLS -->
+
+    <!-- SECTION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="container-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Course LEVEL 3 (EQF)</h3>
+                    <div class="item izq">
+                        <h4>Science and technology</h4>
+                        <span class="casa">D.Dinis High School</span>
+                        <span class="fecha">2018 - 2021</span>
+                        <p>Science and Technology Course,
+                            level 3 qualifications of the European Qualifications Framework (EQF). (16)</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Course LEVEL 5 (EQF)</h3>
+                    <div class="item der">
+                        <h4>Technologies and Programming information systems (TPIS)</h4>
+                        <span class="casa">CINEL</span>
+                        <span class="fecha">2021 - 2023</span>
+                        <p>Technology and Programming course of information systems,
+                            level 5 qualifications of the European Qualifications Framework (EQF). (19)</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION CURRICULUM -->
+
+    <!-- SECTION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="container-section">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <a target="_blank" href="https://github.com/andre03fernandes/OpenWeather.Mobile"
+                        style="text-decoration: none; color: white;">
+                        <div class="overlay">
+                            <h3>Weather Mobile App</h3>
+                            <p>XAMARIN</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <a target="_blank" href="https://github.com/andre03fernandes/NotYourCar"
+                        style="text-decoration: none; color: white;">
+                        <div class="overlay">
+                            <h3>Rent a Car Website</h3>
+                            <p>ASP .NET Core Web App (Model-View-Controller)</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Water Company Website</h3>
+                        <p>ASP .NET Core Web App (Model-View-Controller)</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <a target="_blank" href="https://github.com/andre03fernandes/SuperShop"
+                        style="text-decoration: none; color: white;">
+                        <div class="overlay">
+                            <h3>Super Shop Website</h3>
+                            <p>ASP .NET Core Web App (Model-View-Controller)</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <a target="_blank" href="https://github.com/andre03fernandes/SuperShop.Mobile"
+                        style="text-decoration: none; color: white;">
+                        <div class="overlay">
+                            <h3>Super Shop Mobile App</h3>
+                            <p>XAMARIN</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <a target="_blank" href="https://github.com/andre03fernandes/ProjetoAguas"
+                        style="text-decoration: none; color: white;">
+                        <div class="overlay">
+                            <h3>Water Company Windows Forms App</h3>
+                            <p>Windows Forms App</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION PORTFOLIO -->
+
+    <!-- SECTION FOOTER -->
+    <footer style="background-color: #1e2326;">
+        <a href="#home" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/profile.php?id=100056542068281" target="_blank"><i
+                    class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/AndreFer03" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/_afr.f/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/andr%C3%A9-fernandes-4b181a1a9/" target="_blank"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/andre03fernandes" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+    <!-- SECTION FOOTER -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
