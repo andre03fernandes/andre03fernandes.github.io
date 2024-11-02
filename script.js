@@ -1,6 +1,6 @@
 let menuVisible = false;
 
-function mostrarOcultarMenu() {
+function responsiveHeader() {
     if (menuVisible) {
         document.getElementById("nav").classList = "";
         menuVisible = false;
@@ -10,30 +10,29 @@ function mostrarOcultarMenu() {
     }
 }
 
-function seleccionar() {
+function select() {
     document.getElementById("nav").classList = "";
     menuVisible = false;
 }
 
-function efectoHabilidades() {
+function skills() {
     var skills = document.getElementById("skills");
-    var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
-    if (distancia_skills >= 300) {
-        let habilidades = document.getElementsByClassName("progreso");
-        habilidades[0].classList.add("linq");
-        habilidades[1].classList.add("htmlcssjavascript");
-        habilidades[2].classList.add("aspnetmvc");
-        habilidades[3].classList.add("csharp");
-        habilidades[4].classList.add("xamarin");
-        habilidades[5].classList.add("comunication");
-        habilidades[6].classList.add("teamwork");
-        habilidades[7].classList.add("creativity");
-        habilidades[8].classList.add("dedication");
-        habilidades[9].classList.add("project");
+    var progressBar = window.innerHeight - skills.getBoundingClientRect().top;
+    if (progressBar >= 300) {
+        let skills = document.getElementsByClassName("progress");
+        skills[0].classList.add("csharp");
+        skills[1].classList.add("dotnet");
+        skills[2].classList.add("sqlserver");
+        skills[3].classList.add("oop");
+        skills[4].classList.add("python");
+        skills[5].classList.add("comunication");
+        skills[6].classList.add("teamwork");
+        skills[7].classList.add("creativity");
+        skills[8].classList.add("dedication");
+        skills[9].classList.add("scrum");
     }
 }
 
-
 window.onscroll = function () {
-    efectoHabilidades();
+    skills();
 } 
