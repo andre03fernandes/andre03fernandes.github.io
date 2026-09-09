@@ -11,9 +11,9 @@ button { font: inherit; }
 .site-rail { align-items: center; background: var(--ink); color: var(--white); display: flex; flex-direction: column; height: 100vh; justify-content: space-between; left: 0; padding: 30px 0 24px; position: fixed; top: 0; width: 88px; z-index: 20; }
 .monogram { font-family: 'Syne', sans-serif; font-size: 21px; font-weight: 800; letter-spacing: -1px; }
 .monogram span, .accent { color: var(--orange); }
-.site-rail nav { align-items: center; display: flex; flex-direction: column; gap: 27px; transform: rotate(-90deg); }
-.site-rail nav a { color: #737a78; font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; transition: color .2s ease; white-space: nowrap; }
-.site-rail nav a span { color: var(--orange); margin-right: 8px; }
+.site-rail nav { align-items: center; display: flex; flex: 1; flex-direction: column; gap: 30px; justify-content: center; width: 100%; }
+.site-rail nav a { align-items: center; color: #737a78; display: flex; flex-direction: column; font-family: 'DM Mono', monospace; font-size: 10px; gap: 7px; letter-spacing: .08em; text-transform: uppercase; transition: color .2s ease; writing-mode: vertical-rl; }
+.site-rail nav a span { color: var(--orange); margin: 0; }
 .site-rail nav a:hover, .site-rail nav a.active { color: var(--white); }
 .rail-bottom { align-items: center; display: flex; flex-direction: column; gap: 15px; }
 .rail-bottom a { color: #9ba09c; font-size: 15px; transition: color .2s ease; }
